@@ -6,14 +6,19 @@ import { data } from './data';
 export const Slider = ({rare}) => {
     const [value, setValue] = useState(0);
 
-    console.log(rare);
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <div className={styles.images}>
-                    <img src = {rare ? data[value === 0 ? 3 : value-1].rare : data[value === 0 ? 3 : value-1].veryRare} alt={data[value === 0 ? 3 : value-1].id}/>
-                    <img className={styles.center} src = {rare ? data[value].rare : data[value].veryRare} alt={data[value].id}/>
-                    <img src = {rare ? data[value === 3 ? 0 : value+1].rare : data[value === 3 ? 0 : value+1].veryRare} alt={data[value === 3 ? 0 : value+1].id}/>
+                    <img onClick={() => value === 0 ? setValue(3) : setValue(value - 1)}
+                         src = {rare ? data[value === 0 ? 3 : value-1].rare : data[value === 0 ? 3 : value-1].veryRare}
+                         alt={data[value === 0 ? 3 : value-1].id}/>
+                    <img className={styles.center}
+                         src = {rare ? data[value].rare : data[value].veryRare}
+                         alt={data[value].id}/>
+                    <img onClick={() => value === 3 ? setValue(0) : setValue(value + 1)}
+                         src = {rare ? data[value === 3 ? 0 : value+1].rare : data[value === 3 ? 0 : value+1].veryRare}
+                         alt={data[value === 3 ? 0 : value+1].id}/>
                 </div>
 
                 <div className={styles.titles}>

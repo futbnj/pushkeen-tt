@@ -5,8 +5,7 @@ import Map from './images/Map.png';
 import {Nav} from "../../components/Nav/Nav";
 import {GQ} from "./images/GQ";
 import {Dot} from "./images/Dot";
-import {Parallax} from "../../components/Parallax/Parallax";
-import {Bubbles} from "../Bubbles/Bubbles";
+import {Bubbles} from "../../components/Bubbles/Bubbles";
 
 export const AboutUs = () => {
     return (

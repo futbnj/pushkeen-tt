@@ -1,10 +1,14 @@
 import React from 'react';
-import {Layout} from "./layout/Layout";
+import {AboutUs} from "./layout/AboutUs/AboutUs";
+import {Parallax} from "./components/Parallax/Parallax";
+import {Artworks} from "./layout/Artworks/Artworks";
 
 function App() {
   return (
     <div className="App">
-        <Layout />
+        <AboutUs />
+        <Parallax />
+        <Artworks/>
     </div>
   );
 }

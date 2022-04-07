@@ -8,13 +8,18 @@
     flex-direction: column;
 }
 
+.images a {
+}
+
 .images img {
     z-index: -1;
+    cursor: pointer;
 }
 
 .images img:not(:nth-child(2)) {
     max-height: 200px;
     width: auto;
+    cursor: pointer;
 }
 
 .images {
