@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /*width: 997px;*/
+    max-height: 250px;
+}
+
+.container div:first-child,
+.container div:nth-child(3) {
+    z-index: 10;
+}
+
+.container div:last-child,
+.container div:nth-child(2) {
+    z-index: 20;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        margin: 20px 0;
+    }
+}

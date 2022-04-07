@@ -1,0 +1,8 @@
+.parallax {
+    background: #000000 url("image.png") no-repeat fixed center;
+    background-size: cover;
+
+    height: 397px;
+
+    opacity: 0.7;
+}

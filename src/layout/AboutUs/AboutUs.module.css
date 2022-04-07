@@ -1,0 +1,295 @@
+.background{
+    background-image: url("images/Mountain.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 20%;
+    background-size: cover;
+
+    margin-top: 26px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 977px;
+}
+
+.top {
+    color: #303435;
+    font-weight: 800;
+    font-size: 42px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+}
+
+.top div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 48px;
+}
+.lang span {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+    flex-basis: 95%;
+
+    color: white;
+    font-family: var(--extra-font);
+    font-weight: 700;
+    font-size: 150px;
+}
+
+.block {
+    flex-basis: 93%;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.title p {
+    flex-basis: 1%;
+}
+
+.pTitle {
+    font-weight: 400;
+    font-size: 22px;
+
+    text-transform: uppercase;
+    color: var(--blue);
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.pDescription{
+    flex-basis: 30%;
+
+    color: #5D5D5D;
+    width: 20%;
+}
+
+.tokens {
+    color: var(--blue);
+    background-color: #272727;
+    margin-left: 20px;
+
+    padding-left: 5px;
+    align-self: flex-end;
+    line-height: 31px;
+}
+
+.tokensBg {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+
+    box-shadow: 250px 0 0 0 #272727;
+}
+
+/*about us*/
+
+.bubbles img:first-child {
+    animation: mymove 5s infinite;
+}
+
+.bubbles img {
+    max-height: 150px;
+    width: auto;
+}
+
+@keyframes mymove {
+    50% {transform: rotate(360deg);}
+}
+
+.location {
+    font-family: var(--extra-font);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+
+    flex-basis: 40%;
+
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.location svg {
+    position: absolute;
+    top: 55%;
+    right: 75%;
+}
+
+.location img {
+    margin-right: -145px;
+    margin-bottom: -15px;
+
+    position: absolute;
+    right: 10%;
+    top: -60%;
+}
+
+.location p {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.aboutWrapper {
+    /*background-image: url("images/Map.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right 50%;*/
+}
+
+.aboutWrapper h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: var(--blue);
+    text-transform: uppercase;
+
+    margin-bottom: 15px;
+}
+
+.aboutP {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #5D5D5D;
+
+    margin-bottom: 20px;
+}
+
+.aboutWrapper a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: white;
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*overflow: hidden;*/
+}
+
+.aboutDiv {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 30%;
+
+    margin-left: 10px;
+    margin-bottom: 24px;
+    z-index: 10;
+}
+
+.aboutDiv svg{
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-basis: 1%;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container {
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutWrapper {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tokensBg {
+        box-shadow: none;
+        justify-content: center;
+    }
+    .location {
+        display: none;
+    }
+    .aboutDiv {
+        flex-basis: fit-content;
+    }
+    .about nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        justify-content: center;
+    }
+    .pTitle {
+        writing-mode: horizontal-tb;
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }
+    .nav {
+        flex-basis: fit-content ;
+    }
+    .title {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title h1 {
+        font-size: 8em;
+    }
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pDescription {
+        width: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
