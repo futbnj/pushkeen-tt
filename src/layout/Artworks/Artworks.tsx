@@ -2,9 +2,9 @@ import styles from './Artworks.module.css';
 import React, {useState} from "react";
 import {Slider} from '../../components/Slider/Slider';
 import cn from 'classnames';
+import { Nav } from '../../components/Nav/Nav';
 
 export const Artworks = () => {
-
     const [isRare, setIsRare] = useState(true);
     const [isVeryRare, setIsVeryRare] = useState(false);
 
@@ -21,6 +21,7 @@ export const Artworks = () => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
+                <Nav position={3}></Nav>
                 <div className={styles.buttons}>
                     <button className={styles.primary} onClick={SwitchRare}>Редкие</button>
                     <button className={styles.ghost} onClick={SwitchVeryRare}>Очень редкие</button>

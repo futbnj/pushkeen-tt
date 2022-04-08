@@ -21,7 +21,7 @@ export const AboutUs = () => {
                 <div className={styles.main}>
                     <div className={styles.nav}>
                         <p className={cn(styles.pTitle, styles.one)}>New collection</p>
-                        <Nav />
+                        <Nav position={1}></Nav>
                     </div>
                     <div className={styles.block}>
                         <div className={styles.title}>
@@ -42,7 +42,7 @@ export const AboutUs = () => {
                     <Bubbles />
                     <div className={styles.about}>
                         <div>
-                            <Nav />
+                            <Nav position={2}></Nav>
                         </div>
                         <div className={styles.aboutDiv}>
                             <h3>О проекте</h3>
@@ -59,7 +59,5 @@ export const AboutUs = () => {
                 </div>
             </div>
         </div>
-
-        
     )
 }

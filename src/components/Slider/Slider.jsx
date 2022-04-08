@@ -1,9 +1,12 @@
 import styles from './Slider.module.css';
-
 import React, {useState} from "react";
 import { data } from './data';
 
-export const Slider = ({rare}) => {
+type SliderType = {
+    rare: boolean
+}
+
+export const Slider = ({rare}: SliderType) => {
     const [value, setValue] = useState(0);
 
     return (

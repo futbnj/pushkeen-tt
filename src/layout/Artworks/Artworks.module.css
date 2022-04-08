@@ -3,10 +3,12 @@
 
     display: flex;
     justify-content: center;
+
 }
 
 .container {
     width: 997px;
+    position: relative;
 }
 
 .buttons {
@@ -34,12 +36,14 @@
 
 }
 
-.hidden {
-    display: none;
+.container nav {
+    position: absolute;
+    bottom: 58%;
+    left: 1%;
 }
 
-.hello_this_is_custom_classname {
-    color: green;
+.hidden {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -50,10 +54,20 @@
         margin: 10px;
         padding: 15px;
     }
+
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px){
     .container {
         margin: 20px 50px;
+    }
+    .wrapper nav {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper nav {
+        display: none;
     }
 }
