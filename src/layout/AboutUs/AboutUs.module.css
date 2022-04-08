@@ -247,7 +247,7 @@ h1 {
         display: none;
     }
     .aboutDiv {
-        flex-basis: fit-content;
+        flex-basis: unset;
     }
     .about nav {
         display: none;
