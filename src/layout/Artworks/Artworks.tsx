@@ -1,26 +1,7 @@
 import styles from './Artworks.module.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import React, {useEffect, useRef, useState} from "react";
+import React, {useState} from "react";
 import {Slider} from '../../components/Slider/Slider';
-// import Slider from 'react-slick';
-import {Card} from "../../components/Card/Card";
-import Bubble1 from './img.png';
 import cn from 'classnames';
-import {data} from "../../components/Slider/data";
-import gsap from 'gsap';
-
-const PrevArrow = () => {
-    return (
-        <button>prev</button>
-    )
-}
-
-const NextArrow = () => {
-    return (
-        <button>next</button>
-    )
-}
 
 export const Artworks = () => {
 

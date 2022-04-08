@@ -51,7 +51,7 @@ export const AboutUs = () => {
                             <a href="/">Читать больше в статье </a>
                         </div>
                         <div className={styles.location}>
-                            <img src={Map} width="717" height="453"/>
+                            <img src={Map} alt="map" width="717" height="453"/>
                             <Dot />
                             <p>Команда Bubble </p>
                         </div>

@@ -1,4 +1,3 @@
-import Bubble from './img/bubble.png';
 import Group1 from './img/group_1.png';
 import Group2 from './img/group_2.png';
 import Group3 from './img/group_3.png';
