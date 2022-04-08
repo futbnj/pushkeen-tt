@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pushkeen-tt/static/css/main.c34c6d0c.css",
+    "main.css": "/pushkeen-tt/static/css/main.11388d14.css",
     "main.js": "/pushkeen-tt/static/js/main.56128dfd.js",
     "static/media/image.png": "/pushkeen-tt/static/media/image.1151e7841dde8bae909b.png",
     "static/media/1_rare.png": "/pushkeen-tt/static/media/1_rare.4e4936fb94b893cc8662.png",
@@ -24,11 +24,11 @@
     "static/media/group_3.png": "/pushkeen-tt/static/media/group_3.0fcdff94ed35e471094c.png",
     "static/media/group_2.png": "/pushkeen-tt/static/media/group_2.980485c4bf39f4866401.png",
     "index.html": "/pushkeen-tt/index.html",
-    "main.c34c6d0c.css.map": "/pushkeen-tt/static/css/main.c34c6d0c.css.map",
+    "main.11388d14.css.map": "/pushkeen-tt/static/css/main.11388d14.css.map",
     "main.56128dfd.js.map": "/pushkeen-tt/static/js/main.56128dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34c6d0c.css",
+    "static/css/main.11388d14.css",
     "static/js/main.56128dfd.js"
   ]
 }
