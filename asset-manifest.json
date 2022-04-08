@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pushkeen-tt/static/css/main.118c0387.css",
-    "main.js": "/pushkeen-tt/static/js/main.2d60e4a6.js",
+    "main.css": "/pushkeen-tt/static/css/main.c34c6d0c.css",
+    "main.js": "/pushkeen-tt/static/js/main.56128dfd.js",
     "static/media/image.png": "/pushkeen-tt/static/media/image.1151e7841dde8bae909b.png",
     "static/media/1_rare.png": "/pushkeen-tt/static/media/1_rare.4e4936fb94b893cc8662.png",
     "static/media/4_very_rare.png": "/pushkeen-tt/static/media/4_very_rare.b228a2c198706aa2ef75.png",
@@ -24,11 +24,11 @@
     "static/media/group_3.png": "/pushkeen-tt/static/media/group_3.0fcdff94ed35e471094c.png",
     "static/media/group_2.png": "/pushkeen-tt/static/media/group_2.980485c4bf39f4866401.png",
     "index.html": "/pushkeen-tt/index.html",
-    "main.118c0387.css.map": "/pushkeen-tt/static/css/main.118c0387.css.map",
-    "main.2d60e4a6.js.map": "/pushkeen-tt/static/js/main.2d60e4a6.js.map"
+    "main.c34c6d0c.css.map": "/pushkeen-tt/static/css/main.c34c6d0c.css.map",
+    "main.56128dfd.js.map": "/pushkeen-tt/static/js/main.56128dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.118c0387.css",
-    "static/js/main.2d60e4a6.js"
+    "static/css/main.c34c6d0c.css",
+    "static/js/main.56128dfd.js"
   ]
 }
