@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/pushkeen-tt/static/css/main.e0b1b232.css",
+    "main.js": "/pushkeen-tt/static/js/main.53dd8fe0.js",
+    "static/media/image.png": "/pushkeen-tt/static/media/image.1151e7841dde8bae909b.png",
+    "static/media/1_rare.png": "/pushkeen-tt/static/media/1_rare.4e4936fb94b893cc8662.png",
+    "static/media/4_very_rare.png": "/pushkeen-tt/static/media/4_very_rare.b228a2c198706aa2ef75.png",
+    "static/media/3_very_rare.png": "/pushkeen-tt/static/media/3_very_rare.8274ea7adf889a4e71be.png",
+    "static/media/1_very_rare.png": "/pushkeen-tt/static/media/1_very_rare.45f7721c4d8e3e5516f7.png",
+    "static/media/1.png": "/pushkeen-tt/static/media/1.88729d5d35e8d1d1897e.png",
+    "static/media/3.png": "/pushkeen-tt/static/media/3.e8d2c5c5f0892843f5cf.png",
+    "static/media/4.png": "/pushkeen-tt/static/media/4.7dae96b5029f97665e84.png",
+    "static/media/4_rare.png": "/pushkeen-tt/static/media/4_rare.6158c663ebaf2bd99b94.png",
+    "static/media/Mountain.png": "/pushkeen-tt/static/media/Mountain.57567d8341381613580d.png",
+    "static/media/2_very_rare.png": "/pushkeen-tt/static/media/2_very_rare.438e87b55e2a1f459f66.png",
+    "static/media/2.png": "/pushkeen-tt/static/media/2.c13ef4855105e76f8edd.png",
+    "static/media/2_rare.png": "/pushkeen-tt/static/media/2_rare.43335a004f95c23f2735.png",
+    "static/media/3_rare.png": "/pushkeen-tt/static/media/3_rare.ec5c2ab3940faf5c0393.png",
+    "static/media/TippyToes-Bold.ttf": "/pushkeen-tt/static/media/TippyToes-Bold.bdd8182c1d327bd6db5a.ttf",
+    "static/media/TippyToes-X-traBold.ttf": "/pushkeen-tt/static/media/TippyToes-X-traBold.9f1a37882332929767c2.ttf",
+    "static/media/group_1.png": "/pushkeen-tt/static/media/group_1.673a1127fde8beefd1dd.png",
+    "static/media/Map.png": "/pushkeen-tt/static/media/Map.65431de2ecaf1f227cb5.png",
+    "static/media/group_4.png": "/pushkeen-tt/static/media/group_4.290245ac6859dbefaeb6.png",
+    "static/media/group_3.png": "/pushkeen-tt/static/media/group_3.0fcdff94ed35e471094c.png",
+    "static/media/group_2.png": "/pushkeen-tt/static/media/group_2.980485c4bf39f4866401.png",
+    "index.html": "/pushkeen-tt/index.html",
+    "main.e0b1b232.css.map": "/pushkeen-tt/static/css/main.e0b1b232.css.map",
+    "main.53dd8fe0.js.map": "/pushkeen-tt/static/js/main.53dd8fe0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0b1b232.css",
+    "static/js/main.53dd8fe0.js"
+  ]
+}
