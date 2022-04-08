@@ -51,6 +51,7 @@
     line-height: 33px;
 
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .titleCenter {
